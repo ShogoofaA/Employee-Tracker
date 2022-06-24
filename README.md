@@ -29,6 +29,6 @@ The Employee Tracker is ideal for anybody needing to keep tabs on their employee
 
 ## Usage
 
-Please follow this link for a demonstration video on how to use this app. 
+Please follow this link for a demonstration video on how to use this app. https://drive.google.com/file/d/1KxANHXoQFF-vd-LDgvyyW790PCxkFafm/view
 
 ---
