@@ -7,7 +7,7 @@ const promptUser = () => {
         message: 'Please select an option.',
         choices: ['View all departments',
          'View all roles',
-         'View all employees,',
+         'View all employees',
          'Add a department',
          'Add a role',
          'Add an employee',
@@ -16,30 +16,32 @@ const promptUser = () => {
     .then((select) => {
         switch(select['options']) {
             case 'View all departments':
-            showDepts();
-            break;
+                showDepts();
+                break;
             case 'View all roles':
-
-            break;
+                showRoles();
+                break;
             case 'View all employees':
-
-            break;
+                showEmps();
+                break;
             case 'Add a department':
-            addDepts();
-            break;
+                addDepts();
+                break;
             case 'Add a role':
-
-            break;
+                addRole();
+                break;
             case 'Add an employee':
-
-            break;
+                addEmp();
+                break;
             case 'Update an employee role':
-
-            break;
+                updateEmp();
+                break;
         }
     })
 }
 
 module.exports =  {promptUser}
 const {showDepts, addDepts} = require('./lib/department');
+const { showRoles, addRole } = require('./lib/role')
+const { showEmps, addEmp, updateEmp } = require('./lib/employee');
 promptUser();
