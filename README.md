@@ -1,8 +1,7 @@
 # Employee-Tracker
 
 ## Description
-
-Provide a short description explaining the what, why, and how of your project.
+The Employee Tracker is ideal for anybody needing to keep tabs on their employees. Users can view their current employees along with their status, as well as add more to their database! Simply follow the link below on a guide for how to use this app.
 
 ---
 
@@ -12,48 +11,24 @@ Provide a short description explaining the what, why, and how of your project.
 
 - [Usage](#usage)
 
-- [License](#license)
-
-- [Contributing](#contributing)
-
-- [Preview](#preview)
-
-- [Questions](#questions)
 
 
 ---
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+1.) Please copy the github link and clone into your own repository.
+
+2.) Sign into ur mySQL and make sure to source your schema and seeds following the correct pathing, then exit once finished.
+
+3.) Enter node server.js into your terminal to initiate the prompts!
+
 
 ---
+
 
 ## Usage
 
-Provide instructions and examples for use.
+Please follow this link for a demonstration video on how to use this app. 
 
 ---
-
-## License
-
-The last section of a high-quality README file is the license.
-
----
-
-## Contributing
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.
-
----
-
-## Preview
-```
-
-![splash-page]()
-```
----
-
-## Questions
-
-If you have any questions about the repo, open an issue or contact me directly at [email]. You can find more of my work at [gitHub].
